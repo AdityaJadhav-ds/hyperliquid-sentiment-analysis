@@ -5,6 +5,16 @@ Analyze how market sentiment (Fear & Greed Index) relates to trader behavior and
 
 ---
 
+## Data
+
+Datasets are not included due to file size limitations.
+
+Please place the following files in the project root:
+- fear_greed_index.csv
+- historical_data.csv
+
+---
+
 ## Methodology
 
 1. Data Cleaning
