@@ -51,6 +51,39 @@ Analyze how market sentiment (Fear & Greed Index) relates to trader behavior and
 
 ---
 
-## How to Run
+### 1. Clone the repo
 
-1. Clone repository:
+```bash
+git clone https://github.com/AdityaJadhav-ds/hyperliquid-sentiment-analysis.git
+cd hyperliquid-sentiment-analysis
+
+### 2. Create a virtual environment
+
+Windows:
+
+python -m venv venv
+venv\Scripts\activate
+
+macOS / Linux:
+
+python3 -m venv venv
+source venv/bin/activate
+3. Install dependencies
+pip install -r requirements.txt
+4. Open and run the notebook
+jupyter notebook
+
+Open hyperliquid_trader_behavior_vs_market_sentiment.ipynb and run all cells.
+
+🧪 Using the Saved Model
+
+You can load and use the trained model later:
+
+import joblib
+
+bundle = joblib.load("profit_model_bundle.pkl")
+model = bundle["model"]
+features = bundle["features"]
+
+# Example prediction:
+pred = model.predict(X_new_data)
