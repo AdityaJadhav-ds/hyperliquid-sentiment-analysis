@@ -68,14 +68,15 @@ macOS / Linux:
 
 python3 -m venv venv
 source venv/bin/activate
-3. Install dependencies
-pip install -r requirements.txt
-4. Open and run the notebook
-jupyter notebook
 
+### 3. Install dependencies
+pip install -r requirements.txt
+
+### 4. Open and run the notebook
+jupyter notebook
 Open hyperliquid_trader_behavior_vs_market_sentiment.ipynb and run all cells.
 
-🧪 Using the Saved Model
+### 🧪 Using the Saved Model
 
 You can load and use the trained model later:
 
