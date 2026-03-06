@@ -1,4 +1,4 @@
-dfadfsdf# Hyperliquid Trader Behavior vs Market Sentiment Analysis
+dfsdf# Hyperliquid Trader Behavior vs Market Sentiment Analysis
 
 ## Objective
 Analyze how market sentiment (Fear & Greed Index) relates to trader behavior and performance on Hyperliquid. The goal is to uncover behavioral patterns and derive actionable trading insights.
